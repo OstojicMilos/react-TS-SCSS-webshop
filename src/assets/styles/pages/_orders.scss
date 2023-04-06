@@ -1,0 +1,43 @@
+.orders {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100rem;
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+
+    .order {
+        &:not(:last-of-type) {
+            margin-bottom: 3rem;
+        }
+
+        &__product {
+            display: grid;
+            grid-template-columns: 1fr repeat(3, max-content);
+            gap: 2rem;
+            border-bottom: 1px solid var(--color-primary);
+            padding: 1rem 0;
+            text-align: start;
+    
+            &__title {
+                flex: 0 0 30rem;
+            }
+
+            &:first-child {
+                border-top: 2px solid var(--color-primary);
+            }
+    
+            &:last-of-type {
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__total {
+            text-align: end;
+            margin: 1.5rem;
+        }
+    }
+    
+}

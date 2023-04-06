@@ -1,0 +1,21 @@
+.header {
+    &__item-list {
+        background: var(--color-primary);
+        font-size: 1.6rem;
+        list-style: none;
+        display: flex;
+        padding: 2rem 3rem;
+        gap: 2rem;
+    }
+
+    &__item a {
+        transition: color .2s;
+        color: var(--color-white);
+        text-decoration: none;
+
+        &:hover,
+        &.active {
+            color: var(--color-secondary);
+        }        
+    }
+}
