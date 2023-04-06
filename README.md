@@ -13,7 +13,7 @@ installs all the dependencies listed in the package.json file.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser (we are not using 3000 because I was running my nodejs API on port 3000).
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser (we are not using 3000 because I was running my nodejs API on port 3000). The nodejs API can be found here: [github.com/OstojicMilos/nodejs-mongo-webshop-api](https://github.com/OstojicMilos/nodejs-mongo-webshop-api).
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
