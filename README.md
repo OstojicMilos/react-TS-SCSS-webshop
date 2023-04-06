@@ -1,6 +1,7 @@
 # React WebShop with TypeScript and SCSS
 
-A simple webshop app built with React, React Router, React Hook Form, TypeScript and SCSS. This application allows users to browse products, add them to the cart, create orders and manage user authentication. The app is built to work along with nodejs API which is in another repository of mine. This app is a small demo and very much work in progress.
+A simple webshop app built with React, React Router, React Hook Form, TypeScript and SCSS. This application allows users to browse products, add them to the cart, create orders and manage user authentication. The app is built to work along with nodejs API which is in another repository of mine. This app is a small demo and very much work in progress./
+Don't steal my designs (because I haven't put any effort into designs, so it looks horrible) :)
 
 ## Available Scripts
 
